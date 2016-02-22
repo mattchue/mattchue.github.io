@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  position: relative;
+  background-color: rgb(62, 163, 201);
+  color: white;
+}
+.head {
+  position: absolute;
+  top: 40vh;
+  left: 50vw;
+  transform: translate3d(-50%, -50%, 0);
+  text-align: center;
+  font-size: 3rem;
+}
+.content {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  width: 100vw;
+  transform: translate3d(-50%, -50%, 0);
+  text-align: center;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+.content-item {
+  text-align: left;
+  display: flex;
+}
+.content-subitem {
+  text-align: left;
+}
