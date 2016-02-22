@@ -1,33 +1,29 @@
 body {
-  font-family: sans-serif;
   position: relative;
   background-color: rgb(62, 163, 201);
-  color: white;
+  color: white !important;
 }
-.head {
-  position: absolute;
-  top: 40vh;
-  left: 50vw;
+.container {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
   transform: translate3d(-50%, -50%, 0);
+}
+.head.top {
   text-align: center;
   font-size: 3rem;
+  margin-bottom: 10px;
 }
-.content {
-  position: absolute;
-  top: 50vh;
-  left: 50vw;
-  width: 100vw;
-  transform: translate3d(-50%, -50%, 0);
+.head.shipped {
   text-align: center;
-  font-size: 1.3rem;
-  display: flex;
-  align-items: center;
-  align-content: space-between;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
-.content-item {
-  text-align: left;
-  display: flex;
+.item {
+  text-align: center;
 }
-.content-subitem {
-  text-align: left;
+a {
+  text-decoration: underline;
+  color: white !important;
 }
