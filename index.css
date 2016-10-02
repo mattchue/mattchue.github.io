@@ -11,12 +11,10 @@ body {
 }
 .head.top {
   text-align: center;
-  font-size: 3rem;
   margin-bottom: 10px;
 }
 .head.shipped {
   text-align: center;
-  font-size: 2rem;
   margin-top: 20px;
   margin-bottom: 5px;
 }
