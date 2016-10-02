@@ -2,7 +2,7 @@ body {
   position: relative;
   background-color: rgb(62, 163, 201);
   color: white !important;
-  font-size: 2.5vmax !important;
+  font-size: 2.5vmin !important;
 }
 .container {
   position: absolute !important;
@@ -13,13 +13,13 @@ body {
 .head.top {
   text-align: center;
   margin-bottom: 10px;
-  font-size: 4.5vmax;
+  font-size: 4.5vmin;
 }
 .head.shipped {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 5px;
-  font-size: 3.5vmax;
+  font-size: 3.5vmin;
 }
 .item {
   text-align: center;
